@@ -3,60 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    
-</head>
-<body background="./bgimg.jpg">
+    <style>
+
+  @media screen and (max-width:480px) {
+
+ a{
  
-  
+    float: none;
+    width: 100%;
 
-  <div class="sec1">
-    <div class="content">
-        <p class="hi">Hi i'm</p>
-        <h1>Manjunath Patil</h1>
-        
-      <p>  Graduated from <br><a href="http://www.sgbit.edu.in/" target="_blank">S.G.Balekundri Institue Of Technology</a><span>  as a  </span></a><span class="span1">Mechanical Engineer</span></p>
-   Useful Links: <a href="https://linkedin.com/in/manjunath-patil-412782257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a>
+  }
+}
+
+  @media (min-width:481px) and (max-width:1200px){
+    a{
+
+float: none;
+width: 100%;
+
+}
+
+  }
+
+  @media(min-width:1201px) and (max-width:1600px){
+
+ }
+
+  @media(min-width:1601){
+
+  }</style>
+     
+</head>
+<body background="./assets/image/bg.webp">
+    <header id="header">
+        <nav id="navbar">
+       <ul class="ul">
+        <li><a href="#home" class="active">Home</a></li>
+       <li><a href="#about"  >About</a></li>
+       <li><a href="#projects" >Projects</a></li>
+       <li><a href="#contact">Contact</a></li>
+
+       </ul>
+    </nav>
+    </header>
+    <section id="home" >
+      Hey , I am<h1 style="text-decoration: wavy;">Manjunath Patil</h1>
+    <p> a Web Developer</p>
     
-    </div>
-    <div class="content1"><h3 style="text-decoration: underline;">Education</h3>
-      <ul   >   
-        <li>Primary Education: <span >Bensons English Medium High School</span></li>
-       <li>Secondary Education: Mahesh PU College</li>
-       <li>Graduation: S.G.Balekundri Institute Of Technology</li>
-      </ul></div>
- </div>
- <br>
-   <hr>
-   <br>
+
+    </section>
+  <hr>
+    <section id="about" >
+   <h1 style="color: steelblue;font-size: xx-large;">About Me</h1>
+   <p>I'm a Web developer looking forward to enhance my proffesional Portfolio.</p>
+   <p>I have completed a course and have been certified as a Java Full Stack Developer find my skills mentiond below :  </p>
+   <hr><h2 style="text-align: center; color: slateblue;" >Skills</h2><hr>
+   <div id="skills">
    
-   <h3 style="text-decoration: underline;">Training</h3>
-   Trained As a Java Full Stack Developer. <br>
-
-   <br>
- <hr>
-  <br>
-   
-   <h3 style="text-decoration: underline;">Skills</h3>
-    <ul><li>Java</li>
-    <li>SpringBoot</li>
-  <li>Hibernate</li>
-<li>MySQL</li>
-<li>Html</li>
-<li>CSS</li></ul>
-
-<hr>
-<br>
-<a href="./about.html">About Me</a>
-<br>
-<a href="./hobbies.html" style="margin-top: 20px; " target="_blank">Hobbies</a>
-
-   <a href="./contact.html" target="_blank">Contact</a>
-   
-
+   <div>
   
+   <h3>Language</h3>
+   <ul><li>Java</li>
+  <li>Html</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+</div>
+
+   <div> 
+    <h3>Libraries/API</h3>
+    <ul>
+    <li>Jdbc</li>
+    <li>JPA</li>
+    <li>REST API</li>
+
+   </ul>
+  </div>
+        <div>
+          <h3>Framework</h3>
+  <ul><li>SpringBoot</li>
+  <li>Hibernate</li></ul></div>  </div>
+    </section>
+<hr>
+<h2 style="color: steelblue;text-align: center;">Projects</h1>
+      <section id="projects">
+        
+        <div class="project_list" style="align-items: center;"><a href="https://manju6319.github.io/My_Portfolio/" target="_blank"><img src="./assets/image/portfolio.jpg" alt="portfolio" style="border-radius: 8px; box-shadow: 0px 8px 8px 8px rgb(148, 139, 139);" ></a> 
+          <a href="../fblogin.html/index.html"><img src="./assets/image/fb.91f8693c-c75b-4050-a796-63e1314d18c9" alt="fb_login" style="width: 250px; height: 150px; border-radius: 8px;box-shadow: 0px 8px 8px 8px rgb(148, 139, 139);">
+          </a>
+          </div>
+        
    
+
+     
+      
+      </section>
+      <hr>
+      <section id="contact" style="text-align: center;"  >
+       <H1 style="color: steelblue;">Contact</H1>
+       <span >&#x2709  email </span>- mp361486@gmail.com<br><br>
+       <span>&#x2706  Phone </span>- 7975452852<br><br>
+      <span><img src="./assets/image/317750_linkedin_icon.ico" style="width: 15px;" alt="">  <a href="https://www.linkedin.com/in/manjunath-patil-412782257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&original_referer=https%3A%2F%2Fmanju6319.github.io%2F">LinkedIn</a></span><br><br>
+        </section>
+
+
+        
+    
+
+
 
 
 
